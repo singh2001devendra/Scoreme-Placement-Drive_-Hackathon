@@ -26,7 +26,7 @@ def parse_text_to_table(text):
 def save_to_excel(data, output_file):
     df = pd.DataFrame(data)
     df.to_excel(output_file, index=False, header=False)
-    print(f"✅ Data saved to {output_file}")
+    print(f" Data saved to {output_file}")
 
 # Process all uploaded images
 image_files = ["/mnt/data/image.png"]  # Change to multiple files if needed
