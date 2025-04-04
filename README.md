@@ -17,7 +17,7 @@ Prerequisites
 Install Dependencies
 
 Ensure you have the required libraries installed:
-pip install pytesseract opencv-python pandas pdf2image
+[](pip install pytesseract opencv-python pandas pdf2image)
 
 Install Tesseract-OCR
 
